@@ -34,6 +34,11 @@ export default defineConfig({
       path: '/countdown',
       component: './CountDown',
     },
+    {
+      name: ' Ref',
+      path: '/ref',
+      component: './Ref',
+    },
   ],
   npmClient: 'pnpm',
 });

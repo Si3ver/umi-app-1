@@ -30,14 +30,19 @@ export default defineConfig({
       component: './Table',
     },
     {
-      name: ' CountDown',
+      name: 'CountDown',
       path: '/countdown',
       component: './CountDown',
     },
     {
-      name: ' Ref',
+      name: 'Ref',
       path: '/ref',
       component: './Ref',
+    },
+    {
+      name: 'Formily1',
+      path: '/formily1',
+      component: './Formily1',
     },
   ],
   npmClient: 'pnpm',

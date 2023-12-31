@@ -40,7 +40,7 @@ export default defineConfig({
       component: './Ref',
     },
     {
-      name: 'Formily1',
+      name: 'Formily1 - Quick Start',
       path: '/formily1',
       component: './Formily1',
     },

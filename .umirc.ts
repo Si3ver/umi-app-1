@@ -74,6 +74,21 @@ export default defineConfig({
       path: '/formilyb2/jsx',
       component: './FormilyBase2/3_jsx',
     },
+    {
+      name: 'Formily - 修改密码 - markup schema',
+      path: '/formilyb3/markup',
+      component: './FormilyBase3/1_markup',
+    },
+    {
+      name: 'Formily - 修改密码 - json schema',
+      path: '/formilyb3/json',
+      component: './FormilyBase3/2_json',
+    },
+    {
+      name: 'Formily - 修改密码 - 纯 jsx',
+      path: '/formilyb3/jsx',
+      component: './FormilyBase3/3_jsx',
+    },
   ],
   npmClient: 'pnpm',
 });

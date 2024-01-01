@@ -22,6 +22,7 @@ import { action } from '@formily/reactive'
 import { Card, Button } from 'antd'
 import { UploadOutlined } from '@ant-design/icons'
 
+// <Form form={form} />
 const form = createForm({
   validateFirst: true,
 })
@@ -94,7 +95,7 @@ const SchemaField = createSchemaField({
   },
 })
 
-// schema
+// <SchemaField schema={schema} />
 const schema = {
   type: 'object',
   properties: {
@@ -137,7 +138,7 @@ const schema = {
       },
       'x-reactions': [
         {
-          dependencies: ['.password'],
+          dependencies: ['.password'], // 与 password 互相依赖
           fulfill: {
             state: {
               selfErrors:

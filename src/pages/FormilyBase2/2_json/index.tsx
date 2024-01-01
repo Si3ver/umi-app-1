@@ -41,6 +41,7 @@ const IDUpload = (props) => {
   )
 }
 
+// 专门用来解析 json schema 动态渲染表单的组件 👉 https://react.formilyjs.org/zh-CN/api/components/schema-field
 const SchemaField = createSchemaField({
   components: {
     FormItem,
@@ -96,6 +97,7 @@ const SchemaField = createSchemaField({
 })
 
 // <SchemaField schema={schema} />
+// https://react.formilyjs.org/zh-CN/api/shared/schema
 const schema = {
   type: 'object',
   properties: {
@@ -221,13 +223,13 @@ const schema = {
       'x-component': 'Cascader',
       'x-reactions': '{{fetchAddress}}',
     },
-    idCard: {
-      type: 'string',
-      required: true,
-      title: '身份证复印件',
-      'x-decorator': 'FormItem',
-      'x-component': 'IDUpload',
-    },
+    // idCard: {
+    //   type: 'string',
+    //   required: true,
+    //   title: '身份证复印件',
+    //   'x-decorator': 'FormItem',
+    //   'x-component': 'IDUpload',
+    // },
     contacts: {
       type: 'array',
       required: true,

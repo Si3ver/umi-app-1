@@ -20,6 +20,9 @@ dependencies:
   '@formily/react':
     specifier: ^2.3.1
     version: 2.3.1(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react-is@18.2.0)(react@18.1.0)(typescript@5.3.3)
+  '@formily/reactive':
+    specifier: ^2.3.1
+    version: 2.3.1
   '@umijs/max':
     specifier: ^4.0.89
     version: 4.0.89(@babel/core@7.23.6)(@types/react-dom@18.2.18)(@types/react@18.2.45)(dva@2.5.0-beta.2)(prettier@3.1.1)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.1.0)(typescript@5.3.3)(webpack@5.89.0)

@@ -16,6 +16,7 @@
     "@formily/antd": "^2.3.1",
     "@formily/core": "^2.3.1",
     "@formily/react": "^2.3.1",
+    "@formily/reactive": "^2.3.1",
     "@umijs/max": "^4.0.89",
     "antd": "^4.24.15",
     "moment": "^2.30.1"

@@ -44,6 +44,21 @@ export default defineConfig({
       path: '/formily1',
       component: './Formily1',
     },
+    {
+      name: 'Formily - 登录注册 - markup schema',
+      path: '/formily/markup',
+      component: './FormilyBase1/1_markup',
+    },
+    {
+      name: 'Formily - 登录注册 - json schema',
+      path: '/formily/json',
+      component: './FormilyBase1/2_json',
+    },
+    {
+      name: 'Formily - 登录注册 - 纯 jsx',
+      path: '/formily/jsx',
+      component: './FormilyBase1/3_jsx',
+    },
   ],
   npmClient: 'pnpm',
 });

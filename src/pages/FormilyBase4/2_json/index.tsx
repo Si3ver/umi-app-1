@@ -100,7 +100,7 @@ const schema = {
       'x-component': 'Input',
     },
     name: {
-      type: 'void',
+      type: 'void', // firstName + lastName 组合为 name
       title: '姓名',
       'x-decorator': 'FormItem',
       'x-decorator-props': {
@@ -170,7 +170,7 @@ const schema = {
       title: '地址',
       'x-decorator': 'FormItem',
       'x-component': 'Cascader',
-      'x-reactions': '{{fetchAddress}}',
+      'x-reactions': '{{fetchAddress}}', // reactions
     },
     idCard: {
       type: 'string',
@@ -180,7 +180,7 @@ const schema = {
       'x-component': 'IDUpload',
     },
     contacts: {
-      type: 'array',
+      type: 'array', // array
       required: true,
       title: '联系人信息',
       'x-decorator': 'FormItem',
@@ -190,12 +190,12 @@ const schema = {
         'x-component': 'ArrayItems.Item',
         properties: {
           sort: {
-            type: 'void',
+            type: 'void', // - 排序按钮
             'x-decorator': 'FormItem',
             'x-component': 'ArrayItems.SortHandle',
           },
           popover: {
-            type: 'void',
+            type: 'void', // - 完善信息按钮
             title: '完善联系人信息',
             'x-decorator': 'Editable.Popover',
             'x-component': 'FormLayout',
@@ -211,7 +211,7 @@ const schema = {
                 },
               },
             ],
-            properties: {
+            properties: { // 数组的具体项放这里
               name: {
                 type: 'string',
                 title: '姓名',
@@ -251,7 +251,7 @@ const schema = {
             },
           },
           remove: {
-            type: 'void',
+            type: 'void', // - 删除按钮
             'x-decorator': 'FormItem',
             'x-component': 'ArrayItems.Remove',
           },
@@ -259,7 +259,7 @@ const schema = {
       },
       properties: {
         addition: {
-          type: 'void',
+          type: 'void',  // - 新增按钮
           title: '新增联系人',
           'x-component': 'ArrayItems.Addition',
         },

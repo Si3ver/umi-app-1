@@ -89,6 +89,21 @@ export default defineConfig({
       path: '/formilyb3/jsx',
       component: './FormilyBase3/3_jsx',
     },
+    {
+      name: 'Formily - 编辑详情 - markup schema',
+      path: '/formilyb4/markup',
+      component: './FormilyBase4/1_markup',
+    },
+    {
+      name: 'Formily - 编辑详情 - json schema',
+      path: '/formilyb4/json',
+      component: './FormilyBase4/2_json',
+    },
+    {
+      name: 'Formily - 编辑详情 - jsx',
+      path: '/formilyb4/jsx',
+      component: './FormilyBase4/3_jsx',
+    },
   ],
   npmClient: 'pnpm',
 });
